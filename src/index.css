@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +10,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,5 +20,92 @@
 
   --red: #F64B56;
   --gray-1: #2D2E32;
-  --gray-2: #25262A;
+  --gray-2: #27272e;
+  background-color: var(--gray-1);
+}
+
+.fira-code {
+  font-family: 'Fira Code', monospace;
+}
+
+.home-section {
+  height: calc(100vh - 112px);
+}
+
+.nav-container {
+  height: 80px;
+}
+
+.active-link {
+  color: var(--red);
+  font-weight: 900;
+}
+
+.active-link::after {
+  content: " >";
+  font-weight: 900;
+}
+
+.active-link::before {
+  content: "< ";
+  font-weight: 900;
+}
+
+.red {
+  color: var(--red);
+}
+
+.media-side {
+  top: 50%;
+  transform: translateY(-50%) scale(1);
+  background-color: var(--gray-2);
+  transition: all 100ms;
+}
+
+.media-side:hover {
+  transform: translateY(-50%) scale(1.07);
+}
+
+.media-side:hover > li {
+  color: rgb(150, 150, 150);
+  transition: all 200ms;
+}
+
+.media-side:hover > li:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.fullstack-span {
+  background-color: var(--red);
+  color: var(--gray-2);
+}
+
+.gradient {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, var(--gray-1) 0%, rgba(252,176,69,0) 40%);
+}
+
+.home-image {
+  background-image: url('./assets/my_img.png');
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 80vh;
+  width: calc(80vh * 0.762);
+  z-index: -1;
+  animation: moveBackground 1s ease-in-out forwards;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: -500px 0; /* Start with the background image at its initial position */
+  }
+  100% {
+    background-position: left; /* Move the background image to the right edge */
+  }
 }
