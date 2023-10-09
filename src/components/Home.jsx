@@ -1,3 +1,7 @@
+import MeHome from '../assets/me-homepng.png'
+import HomeBack from '../assets/home-back.svg'
+import HomeDeco from '../assets/home-deco.svg'
+
 function Home() {
   return (
     <section className="w-3/4 flex items-center home-section justify-between mx-auto relative">
@@ -14,8 +18,13 @@ function Home() {
           If you like what you see and have a project you need coded, don't hesitate to contact me.
         </p>
       </div>
-      <div className="home-image">
-        <div className='gradient'></div>
+      <div className='home-back' >
+      <div className="relative back-container">
+        <img className='absolute z-20 h-full' src={HomeDeco} />
+        <div className='absolute w-full h-full z-10 gradient-home' />
+        <img className='absolute -z-20 h-full' src={HomeBack} />
+        {/* <img className='h-full me-home' src={MeHome} /> */}
+      </div>
       </div>
     </section>
   );

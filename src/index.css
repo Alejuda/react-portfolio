@@ -20,7 +20,7 @@
 
   --red: #F64B56;
   --gray-1: #2D2E32;
-  --gray-2: #27272e;
+  --gray-2: #25262A;
   background-color: var(--gray-1);
 }
 
@@ -87,18 +87,37 @@
   background: linear-gradient(90deg, var(--gray-1) 0%, rgba(252,176,69,0) 40%);
 }
 
-.home-image {
-  background-image: url('./assets/my_img.png');
-  background-size: contain;
-  background-position: left;
+.back-container {
+  width: 100%;
+  aspect-ratio: 0.84;
+  background-image: url('./assets/me-homepng.png');
   background-repeat: no-repeat;
+  background-size: contain;
+  animation: moveBackground 1s ease-in-out forwards;
+}
+
+.home-back {
   position: absolute;
   right: 0;
   bottom: 0;
-  height: 80vh;
-  width: calc(80vh * 0.762);
   z-index: -1;
-  animation: moveBackground 1s ease-in-out forwards;
+  width: 50%;
+}
+
+.gradient-home {
+  background: linear-gradient(90deg, rgba(45,46,50,1) 0%, rgba(45,46,50,0) 50%);
+}
+
+.recent-works-section {
+  background-color: var(--gray-2);
+  box-shadow: 0 -5px 0 var(--gray-2);
+  background-image: url('./assets/recent-back.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.works-grid {
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
 }
 
 @keyframes moveBackground {

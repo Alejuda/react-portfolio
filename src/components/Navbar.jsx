@@ -1,7 +1,7 @@
 import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
 
 const Navbar = () => (
-  <header className="flex justify-between nav-container w-9/12 max-w-7xl m-auto items-center">
+  <header className="flex justify-between nav-container w-9/12 max-w-screen-2xl m-auto items-center">
     <a className="flex-1 text-start" href="/">
       <h1 className="nav-logo text-3xl"><strong>Ignacio</strong> Fino</h1>
     </a>

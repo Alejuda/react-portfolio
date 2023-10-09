@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import MediaSide from './components/MediaSide'
 import Home from './components/Home'
+import RecentWorks from './components/RecentWorks'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <MediaSide />
       <Home />
+      <RecentWorks />
     </>
   )
 }
