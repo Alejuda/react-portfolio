@@ -93,7 +93,7 @@
   background-image: url('./assets/me-homepng.png');
   background-repeat: no-repeat;
   background-size: contain;
-  animation: moveBackground 1s ease-in-out forwards;
+  animation: moveBackground 800ms ease-in-out forwards;
 }
 
 .home-back {
