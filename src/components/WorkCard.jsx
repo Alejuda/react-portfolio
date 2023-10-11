@@ -1,8 +1,8 @@
 import todo from '../assets/todo.png'
 
-function WorkCard({ title, description, tech }) {
+function WorkCard({id, title, description, tech, setPopWork, setPopup }) {
   return (
-    <div className="work-card group w-full flex flex-col gap-4 relative overflow-hidden hover:cursor-pointer hover:scale-105 transition-all">
+    <div className="work-card group w-full flex flex-col gap-4 relative overflow-hidden hover:cursor-pointer">
       <img className='absolute h-full w-full object-cover z-10' src={todo}/>
       <div className="z-20 work-card-content w-full flex flex-col px-8 py-20 gap-4 group-hover:opacity-0 transition-opacity">
         <h3 className="text-3xl fira-code font-semibold text-start">{title}</h3>
@@ -16,6 +16,10 @@ function WorkCard({ title, description, tech }) {
       <button
         className="z-20 group-hover:opacity-100 transition-opacity absolute bottom-0 w-full opacity-0 fira-code font-bold py-2 bg-primaryRed"
         type="button"
+        onClick={() => {
+          setPopWork(id);
+          setPopup(true)
+        }}
       >
         See Project
       </button>
