@@ -23,7 +23,6 @@ function Home() {
         <img className='absolute z-20 h-full' src={HomeDeco} />
         <div className='absolute w-full h-full z-10 gradient-home' />
         <img className='absolute -z-20 h-full' src={HomeBack} />
-        {/* <img className='h-full me-home' src={MeHome} /> */}
       </div>
       </div>
     </section>

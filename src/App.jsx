@@ -5,6 +5,7 @@ import MediaSide from './components/MediaSide'
 import Home from './components/Home'
 import RecentWorks from './components/RecentWorks'
 import About from './components/About'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Home />
       <RecentWorks />
       <About />
+      <Contact />
     </>
   )
 }

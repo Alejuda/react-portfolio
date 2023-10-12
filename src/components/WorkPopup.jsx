@@ -5,7 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 function WorkPopup({setPopup, popWork}) {
 
   return (
-    <div className="fixed w-screen h-screen backdrop-blur-sm z-50 flex justify-center items-center">
+    <div className="fixed w-screen h-screen backdrop-blur-sm z-50 flex justify-center items-center shadow">
       <div className="w-3/4 h-3/4 bg-gray_1 relative flex justify-between">
         <CloseIcon
           fontSize="large"
