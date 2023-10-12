@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import MediaSide from './components/MediaSide'
 import Home from './components/Home'
 import RecentWorks from './components/RecentWorks'
+import About from './components/About'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <MediaSide />
       <Home />
       <RecentWorks />
+      <About />
     </>
   )
 }

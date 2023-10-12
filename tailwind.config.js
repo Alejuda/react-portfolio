@@ -10,6 +10,7 @@ export default {
         primaryRed: '#F64B56',
         gray_1: '#2D2E32',
         gray_2: '#25262A',
+        gray_3: '#1d1e20',
       }
     },
   },

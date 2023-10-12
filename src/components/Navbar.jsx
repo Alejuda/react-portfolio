@@ -12,7 +12,7 @@ const Navbar = () => (
       <li><a className="nav-link text-lg" href="#">Contact</a></li>
     </ul>
     <div className="flex-1 flex justify-end text-2xl items-center red">
-    <a className="media-link" href="#contact"><MailOutlinedIcon fontSize='large'/></a>
+      <a className="media-link" href="#contact"><MailOutlinedIcon fontSize='large'/></a>
     </div>
   </header>
 );
