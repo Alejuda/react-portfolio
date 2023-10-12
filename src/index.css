@@ -36,6 +36,11 @@
   height: 80px;
 }
 
+.nav-link:hover {
+  color: var(--red);
+  transition: all 200ms;
+}
+
 .active-link {
   color: var(--red);
   font-weight: 900;
@@ -130,6 +135,13 @@
   color: #1d1e20;
   font-weight: 600;
   border-radius: 5px;
+}
+
+.about {
+  background-image: url('./assets/about-7.svg');
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 
 @keyframes moveBackground {

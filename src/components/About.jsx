@@ -13,7 +13,7 @@ import { FaNode } from "react-icons/fa";
 
 function About() {
   return (
-    <section className="w-screen px-8 py-32 bg-gray_3">
+    <section className="w-screen px-8 py-32 bg-gray_3 about">
       <div className="max-w-screen-2xl flex flex-col gap-20 pb-10 w-5/6 m-auto">
         <h2 className="text-5xl whitespace-nowrap font-semibold fira-code text-primaryRed">
           About me
