@@ -25,7 +25,8 @@ function About() {
           contact me.
         </p>
         <a
-          href=""
+          href="../assets/files/MyResume.pdf"
+          download="MyResume.pdf"
           className="self-start transition-all flex items-center rounded-sm gap-3 border-2 border-primaryRed whitespace-nowrap bg-primaryRed font-semibold py-3 px-5 hover:bg-red-100 hover:text-gray_2"
         >
           Get my resume <SiGoogledocs />
