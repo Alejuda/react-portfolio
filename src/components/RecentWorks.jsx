@@ -51,7 +51,7 @@ const RecentWorks = () => {
 
   return (
     <>
-      <section className="w-screen recent-works-section px-8">
+      <section id="jobs" className="w-screen recent-works-section px-8">
         <div className="max-w-screen-2xl pb-10 w-5/6 m-auto">
           <div className="flex gap-5 items-center">
             <h2 className="text-4xl whitespace-nowrap font-semibold py-10 fira-code">

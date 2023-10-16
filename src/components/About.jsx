@@ -7,13 +7,14 @@ import {
   SiTailwindcss,
   SiGoogledocs,
 } from "react-icons/si";
-import { BsGearWideConnected, BsLightbulb, BsCodeSlash } from 'react-icons/bs'
+import { BsGearWideConnected, BsLightbulb, BsCodeSlash } from "react-icons/bs";
 import { RiHtml5Fill } from "react-icons/ri";
 import { FaNode } from "react-icons/fa";
+import MyResume from '../assets/files/MyResume.pdf';
 
 function About() {
   return (
-    <section className="w-screen px-8 py-28 bg-gray_3 about">
+    <section id="about" className="w-screen px-8 py-28 bg-gray_3 about">
       <div className="max-w-screen-2xl flex flex-col gap-16 pb-10 w-5/6 m-auto">
         <h2 className="text-6xl whitespace-nowrap font-semibold fira-code text-primaryRed">
           About me
@@ -25,8 +26,8 @@ function About() {
           contact me.
         </p>
         <a
-          href="../assets/files/MyResume.pdf"
-          download="MyResume.pdf"
+          href={MyResume}
+          download="IgnacioFino-resume.pdf"
           className="self-start text-xl transition-all flex items-center rounded-sm gap-3 border-2 border-primaryRed whitespace-nowrap bg-primaryRed font-semibold py-3 px-5 hover:bg-red-100 hover:text-gray_2"
         >
           Get my resume <SiGoogledocs />
@@ -34,7 +35,9 @@ function About() {
         <div className="h-[2px] rounded-full bg-white w-full" />
         <div className="flex flex-col gap-7">
           <div className="flex gap-10 ">
-          <h4 className="fira-code flex items-center gap-3 text-3xl"><BsCodeSlash className="text-primaryRed"/> Languages</h4>
+            <h4 className="fira-code flex items-center gap-3 text-3xl">
+              <BsCodeSlash className="text-primaryRed" /> Languages
+            </h4>
             <div className="flex items-center justify-start flex-1 text-3xl gap-6">
               <SiJavascript />
               <SiRuby />
@@ -43,7 +46,9 @@ function About() {
             </div>
           </div>
           <div className="flex gap-10 ">
-          <h4 className="fira-code flex items-center gap-3 text-3xl"><BsGearWideConnected className="text-primaryRed"/> Frameworks</h4>
+            <h4 className="fira-code flex items-center gap-3 text-3xl">
+              <BsGearWideConnected className="text-primaryRed" /> Frameworks
+            </h4>
             <div className="flex items-center justify-start flex-1 text-4xl gap-6">
               <SiReact />
               <SiRubyonrails />
@@ -52,7 +57,9 @@ function About() {
             </div>
           </div>
           <div className="flex gap-10 ">
-            <h4 className="fira-code flex items-center gap-3 text-3xl"><BsLightbulb className="text-primaryRed"/> Skills</h4>
+            <h4 className="fira-code flex items-center gap-3 text-3xl">
+              <BsLightbulb className="text-primaryRed" /> Skills
+            </h4>
             <div className="flex items-center justify-start flex-1 text-sm flex-wrap gap-6">
               <span className="skills">Database Management</span>
               <span className="skills">Version Control</span>

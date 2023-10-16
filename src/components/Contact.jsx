@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section className="w-screen px-8 py-32">
+    <section id="contact" className="w-screen px-8 py-32">
       <div className="max-w-screen-2xl pb-10 w-5/6 py-10 m-auto flex gap-20">
         
         <h2 className="text-5xl font-semibold fira-code max-w-[40%]">

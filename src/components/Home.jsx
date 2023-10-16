@@ -4,7 +4,7 @@ import HomeDeco from '../assets/home-deco.svg'
 
 function Home() {
   return (
-    <section className="w-3/4 flex items-center home-section justify-between mx-auto relative">
+    <section id='home' className="w-3/4 flex items-center home-section justify-between mx-auto relative">
       <div className="flex flex-col items-start gap-5 flex-auto">
         <span className="px-7 py-1 fira-code fullstack-span font-semibold rounded-md">
           Full-Stack Developer
