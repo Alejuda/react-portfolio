@@ -1,4 +1,3 @@
-import MeHome from '../assets/me-homepng.png'
 import HomeBack from '../assets/home-back.svg'
 import HomeDeco from '../assets/home-deco.svg'
 

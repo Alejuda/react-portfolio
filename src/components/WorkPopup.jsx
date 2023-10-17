@@ -1,6 +1,7 @@
 import CloseIcon from "@mui/icons-material/Close";
 import LanguageIcon from "@mui/icons-material/Language";
 import GitHubIcon from '@mui/icons-material/GitHub';
+import DBWarn from './DBWarn'
 
 function WorkPopup({setPopup, popWork}) {
 
@@ -30,7 +31,8 @@ function WorkPopup({setPopup, popWork}) {
               <span key={index} className="px-2 py-1 bg-slate-500 fira-code rounded-sm font-semibold text-sm">{techno}</span>
             ))}
           </div>
-          <div className="flex gap-6 items-center justify-start mt-auto">
+          {popWork.warn && <DBWarn />}
+          <div className={!popWork.warn ? "flex gap-6 items-center justify-start mt-auto" : "flex gap-6 items-center justify-start"}>
             <a
               href={popWork.live}
               className="transition-all flex items-center rounded-sm gap-3 border-2 border-primaryRed whitespace-nowrap bg-primaryRed font-semibold py-3 px-5 hover:bg-red-100 hover:text-gray_2"

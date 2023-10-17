@@ -8,10 +8,11 @@ const works = [
     title: "Luxury Speedsters",
     description:
       "The \"Luxury Speedsters\" app offers users a glimpse into the future of automotive luxury. It utilizes Ruby on Rails for a strong backend foundation and React for an easy-to-use frontend interface.",
-    tech_stack: ["React", "Redux", "Ruby on Rails", "TailwindCSS", "PostgreSQL"],
+    tech_stack: ["Ruby on Rails", "React", "Redux", "TailwindCSS", "PostgreSQL"],
     image: "https://i.postimg.cc/zf6BJyj7/luxury.jpg",
     live: "https://rentals-app-egry.onrender.com/",
     source: "https://github.com/Luiscarlosvd/futuristic-transportation",
+    warn: true,
   },
   {
     id: 1,
@@ -22,16 +23,18 @@ const works = [
     image: "https://i.postimg.cc/XvpqSfwX/Categorease.jpg",
     live: "https://categorease.onrender.com/",
     source: "https://github.com/Alejuda/CategorEASE",
+    warn: true,
   },
   {
     id: 2,
     title: "Crypto Pro",
     description:
       "User-friendly web application designed to provide real-time data and basic information about various cryptocurrencies. By fetching data from an API, Crypto Pro displays a comprehensive list of cryptocurrencies, allowing users to explore and stay updated on the latest trends in the crypto market.",
-    tech_stack: ["HTML", "CSS", "JavaScript"],
+    tech_stack: ["React", "Redux", "API"],
     image: "https://i.postimg.cc/sxRghbbZ/crypto-pro.jpg",
     live: "https://crypto-pro-umkp.onrender.com/",
     source: "https://github.com/Alejuda/crypto-pro",
+    warn: false,
   },
   {
     id: 3,
@@ -42,6 +45,7 @@ const works = [
     image: "https://i.postimg.cc/rFHZ8c4j/todo.jpg",
     live: "https://alejuda.github.io/TODO-List/dist/",
     source: "https://github.com/Alejuda/TODO-List",
+    warn: false,
   },
 ];
 
