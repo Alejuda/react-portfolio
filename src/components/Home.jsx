@@ -1,6 +1,6 @@
 import HomeBack from '../assets/home-back.svg'
 import HomeDeco from '../assets/home-deco.svg'
-import HomeMe from '../assets/Me-homepng.jpg'
+import HomeMe from '../assets/me-homepng.jpg'
 
 function Home() {
   return (
