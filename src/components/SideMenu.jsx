@@ -8,8 +8,8 @@ function SideMenu({ active }) {
     <div
       className={
         active
-          ? "h-screen fixed side-bar z-50 left-0 transition-all flex flex-col justify-between"
-          : "h-screen fixed side-bar z-50 -left-full transition-all flex flex-col justify-between"
+          ? "h-screen fixed side-bar z-30 left-0 transition-all flex flex-col justify-between"
+          : "h-screen fixed side-bar z-30 -left-full transition-all flex flex-col justify-between"
       }
     >
       <ul className="flex flex-col px-20 mt-40 justify-center items-center gap-10 shrink-0">

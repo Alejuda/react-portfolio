@@ -1,6 +1,6 @@
 function DBWarn() {
   return (
-    <div className="mt-auto text-yellow-400 p-3 border border-yellow-400 rounded-2xl warning">
+    <div className="mt-auto text-yellow-400 p-2 border border-yellow-400 rounded-2xl warning">
       <h5 className="font-semibold text-sm">Warning!</h5>
       <p className="text-xs">
         This project utilizes a <strong className="font-extrabold underline">free hosting service</strong> for its database. The first

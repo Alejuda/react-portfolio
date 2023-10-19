@@ -25,7 +25,7 @@ function Home() {
           <img className='absolute -z-20 h-full' src={HomeBack} />
         </div>
       </div>
-      <img className='mb-5 hidden phone-me' src={HomeMe} alt='image of ignacio'/>
+      <img className='mb-5 hidden phone-me rounded-2xl shadow-md' src={HomeMe} alt='image of ignacio'/>
     </section>
   );
 }
