@@ -7,13 +7,13 @@ function WorkPopup({setPopup, popWork}) {
 
   return (
     <div className="fixed w-screen h-screen backdrop-blur-sm z-50 flex justify-center items-center shadow">
-      <div className="w-3/4 h-3/4 bg-gray_1 relative flex justify-between">
+      <div className="w-3/4 h-3/4 bg-gray_1 relative flex justify-between popup-container">
         <CloseIcon
           fontSize="large"
           className="absolute right-4 top-4 cursor-pointer"
           onClick={()=>{setPopup(false)}}
         />
-        <div className="w-1/2">
+        <div className="w-1/2 popup-img-container">
           <img
             className="w-full h-full object-contain p-2 border-r-2 "
             src={popWork.image}

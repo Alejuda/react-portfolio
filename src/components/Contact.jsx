@@ -1,9 +1,9 @@
 function About() {
   return (
     <section id="contact" className="w-screen px-8 py-32">
-      <div className="max-w-screen-2xl pb-10 w-5/6 py-10 m-auto flex gap-20">
+      <div className="max-w-screen-2xl pb-10 w-5/6 py-10 m-auto contact-container flex gap-20">
         
-        <h2 className="text-5xl font-semibold fira-code max-w-[40%]">
+        <h2 className="contact-text text-5xl font-semibold fira-code max-w-[40%]">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h2>
