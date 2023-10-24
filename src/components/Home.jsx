@@ -14,8 +14,10 @@ function Home() {
           I'm Nacho!
         </h2>
         <p className="text-start max-w-lg text-xl tracking-wide">
-          I can help you build a product, feature or website. look through some of my work and experience!
-          If you like what you see and have a project you need coded, don't hesitate to contact me.
+          A web developer living in Cordoba, Argentina.<br />
+          I am passionate about web development and eager to contribute to exciting projects.
+          Look through some of my work and experience! <br />
+          If you’re interested in my work and have a project that requires coding, please feel free to contact me. I’d be happy to help!
         </p>
       </div>
       <div className='home-back' >

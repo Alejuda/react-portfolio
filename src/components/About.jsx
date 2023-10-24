@@ -10,7 +10,7 @@ import {
 import { BsGearWideConnected, BsLightbulb, BsCodeSlash } from "react-icons/bs";
 import { RiHtml5Fill } from "react-icons/ri";
 import { FaNode } from "react-icons/fa";
-import MyResume from '../assets/files/MyResume.pdf';
+import MyResume from "../assets/files/MyResume.pdf";
 
 function About() {
   return (
@@ -20,10 +20,11 @@ function About() {
           About me
         </h2>
         <p className="text-start max-w-2xl text-2xl about-desc font-medium tracking-wide">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hesitate to
-          contact me.
+          I'm a talented web developer who loves bringing ideas to
+          life through beautiful and functional websites. With a knack for both
+          front-end and back-end development, I enjoy creating seamless user
+          experiences that leave a lasting impression. Let's collaborate and
+          build something amazing together!
         </p>
         <a
           href={MyResume}
