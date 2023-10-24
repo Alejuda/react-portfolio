@@ -47,6 +47,10 @@
   height: 80px;
 }
 
+.nav-link{
+  transition: all 150ms;
+}
+
 .nav-link:hover {
   color: var(--red);
   transition: all 200ms;
