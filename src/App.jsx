@@ -19,7 +19,7 @@ function App() {
       <RecentWorks />
       <About />
       <Contact />
-      <SideMenu active={sideMenu}/>
+      <SideMenu active={sideMenu} setSideMenu={setSideMenu} />
     </>
   )
 }

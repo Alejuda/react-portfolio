@@ -3,7 +3,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';
 
-function SideMenu({ active }) {
+function SideMenu({ active, setSideMenu }) {
   return (
     <div
       className={
@@ -11,6 +11,7 @@ function SideMenu({ active }) {
           ? "h-screen fixed side-bar z-30 left-0 transition-all flex flex-col justify-between"
           : "h-screen fixed side-bar z-30 -left-full transition-all flex flex-col justify-between"
       }
+      onClick={()=> {setSideMenu(false)}}
     >
       <ul className="flex flex-col px-20 mt-40 justify-center items-center gap-10 shrink-0">
         <li>

@@ -21,7 +21,6 @@ const Navbar = ({sideMenu, setSideMenu }) => {
     <header className="flex justify-between nav-container w-9/12 max-w-screen-2xl m-auto items-center">
       <a className="flex-1 text-start" href="/">
         <h1 className="nav-logo text-3xl"><strong>Ignacio</strong> Fino</h1>
-        <h2>Scroll Top: {scrollTop}</h2>
       </a>
       <ul className="flex items-center gap-10 shrink-0 nav-list">
         <li><a className={(scrollTop >= 0 && scrollTop <= 673) ? "nav-link text-lg active-link" : "nav-link text-lg"} href="#home">Home</a></li>
