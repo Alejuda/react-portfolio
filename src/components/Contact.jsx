@@ -13,21 +13,21 @@ function About() {
           className="flex flex-col w-full justify-start gap-6 fira-code text-white"
         >
           <input
-            className="form-input"
+            className="form-input focus:border-l-2 border-primaryRed"
             type="text"
             name="name"
             placeholder="Full name"
             required
           />
           <input
-            className="form-input"
+            className="form-input focus:border-l-2 border-primaryRed"
             type="email"
             name="email"
             placeholder="Email address"
             required
           />
           <textarea
-            className="form-input"
+            className="form-input focus:border-l-2 border-primaryRed"
             name="content"
             required
             placeholder="Write me something..."
