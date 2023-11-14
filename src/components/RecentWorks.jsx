@@ -38,6 +38,17 @@ const works = [
   },
   {
     id: 3,
+    title: "Photographer Portfolio",
+    description:
+      "Professional photographer's official website, a captivating showcase of breathtaking photography sessions and stunning images. Explore the portfolio, book a session, and immerse yourself in the artistry of photography.",
+    tech_stack: ["JavaScript", "Webpack", "HTML", "CSS"],
+    image: "https://i.postimg.cc/NBGHt2RR/lucas-portfolio.png",
+    live: "https://alejuda.github.io/Lucas-Portfolio",
+    source: "https://github.com/Alejuda/Lucas-Portfolio",
+    warn: false,
+  },
+  {
+    id: 4,
     title: "To-Do List",
     description:
       "This project allows users to create, edit, and remove tasks from their lists with ease. In addition, users can select and remove completed tasks with a single click, simplifying their workflow and helping them stay on top of their tasks.",
