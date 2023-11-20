@@ -1,14 +1,14 @@
 import {
   SiJavascript,
   SiRuby,
-  SiCss3,
   SiReact,
   SiRubyonrails,
   SiTailwindcss,
   SiGoogledocs,
+  SiTypescript,
+  SiPython,
 } from "react-icons/si";
 import { BsGearWideConnected, BsLightbulb, BsCodeSlash } from "react-icons/bs";
-import { RiHtml5Fill } from "react-icons/ri";
 import { FaNode } from "react-icons/fa";
 import MyResume from "../assets/files/MyResume.pdf";
 
@@ -20,11 +20,11 @@ function About() {
           About me
         </h2>
         <p className="text-start max-w-2xl text-2xl about-desc font-medium tracking-wide">
-          I'm a talented web developer who loves bringing ideas to
-          life through beautiful and functional websites. With a knack for both
-          front-end and back-end development, I enjoy creating seamless user
-          experiences that leave a lasting impression. Let's collaborate and
-          build something amazing together!
+          I'm a talented web developer who loves bringing ideas to life through
+          beautiful and functional websites. With a knack for both front-end and
+          back-end development, I enjoy creating seamless user experiences that
+          leave a lasting impression. Let's collaborate and build something
+          amazing together!
         </p>
         <a
           href={MyResume}
@@ -41,9 +41,9 @@ function About() {
             </h4>
             <div className="flex items-center justify-start flex-1 text-3xl gap-6">
               <SiJavascript />
+              <SiTypescript />
               <SiRuby />
-              <RiHtml5Fill />
-              <SiCss3 />
+              <SiPython />
             </div>
           </div>
           <div className="flex gap-10 tech-stack">
@@ -62,10 +62,14 @@ function About() {
               <BsLightbulb className="text-primaryRed" /> Skills
             </h4>
             <div className="flex items-center skills-container justify-start flex-1 text-sm flex-wrap gap-6">
+              <span className="skills">GIT</span>
+              <span className="skills">API Design</span>
               <span className="skills">Database Management</span>
               <span className="skills">Version Control</span>
               <span className="skills">CLI</span>
-              <span className="skills">API Design</span>
+              <span className="skills">Vite</span>
+              <span className="skills">Webpack</span>
+              <span className="skills">Figma</span>
             </div>
           </div>
         </div>
